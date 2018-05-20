@@ -10,6 +10,9 @@ clean:
 	cargo clean
 doc:
 	cargo doc --all
+install: build-release
+	sudo install -o root -t /usr/local/bin target/release/ttytheme
+	sudo chmod +s /usr/local/bin/ttytheme
 test: test-debug test-release
 test-debug:
 	cargo test --all

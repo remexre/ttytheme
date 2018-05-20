@@ -42,5 +42,8 @@ pub fn apply_theme(theme: &Theme) -> Result<(), Error> {
         .context("Couldn't set green channel")?;
     write_channel!(theme, 2, "/sys/module/vt/parameters/default_blu")
         .context("Couldn't set blue channel")?;
+
+    // Clear the screen, resetting colors.
+    eprintln!("\x1b]R\x1bc");
     Ok(())
 }
