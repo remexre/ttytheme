@@ -408,7 +408,7 @@ dependencies = [
 
 [[package]]
 name = "ttytheme"
-version = "0.1.1"
+version = "0.1.2-alpha.0"
 dependencies = [
  "failure 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "human-panic 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
