@@ -1,7 +1,11 @@
 [package]
-name = "ttytheme"
-version = "0.1.0"
 authors = ["Nathan Ringo <remexre@gmail.com>"]
+description = "A utility to set colors in the Linux framebuffer console."
+homepage = "https://github.com/remexre/ttytheme"
+license = "Apache-2.0/MIT"
+name = "ttytheme"
+repository = "https://github.com/remexre/ttytheme"
+version = "0.1.0"
 
 [dependencies]
 failure = "0.1.1"
