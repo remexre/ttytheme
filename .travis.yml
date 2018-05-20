@@ -12,6 +12,6 @@ os:
 cache: cargo
 
 install:
-- cargo install just
+- command -v just || cargo install just
 script:
 - just travis-ci
